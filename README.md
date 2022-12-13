@@ -72,7 +72,7 @@ We're using `tfds` and `Google drive` as our dataset manager and where the repo 
     - test-image
     - test-target
 ```
-- Retrieve the dataset shared URL and extract the id of the file, e.g. `https://drive.google.com/file/d/0B4FkkLP2MB8kMDRiNDkxOGEtMDhmNC00NzJjLThkNzQtZDc0MDNlNWVhZjk1/view?usp=sharing&resourcekey=0-k2XR2jyQonn-pTD8ndivgA` extracted to `0B4FkkLP2MB8kMDRiNDkxOGEtMDhmNC00NzJjLThkNzQtZDc0MDNlNWVhZjk1`. And replace `shared-url-here'` with id in `datasets/camelyon16/camelyon16.py`
+- Retrieve the dataset shared URL and extract the id of the file, e.g. `https://drive.google.com/file/d/0B4FkkLP2MB8kMDRiNDkxOGEtMDhmNC00NzJjLThkNzQtZDc0MDNlNWVhZjk1/view?usp=sharing&resourcekey=0-k2XR2jyQonn-pTD8ndivgA` extracted to `0B4FkkLP2MB8kMDRiNDkxOGEtMDhmNC00NzJjLThkNzQtZDc0MDNlNWVhZjk1`. And replace `shared-url-here` with id in `datasets/camelyon16/camelyon16.py`
 - To build the dataset, we `cd` into one of the datasets. (Under docker container environment)
 ```
 cd datasets/camelyon16
